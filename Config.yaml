@@ -15,6 +15,7 @@ RenderingConfiguration:
   OverlayMode: true
   Position: Center
   MonsterHealthBar: true
+  ShowCubeOverlay: true
   ToggleViaInGameMap: false
   ToggleViaInGamePanels: true
   StickToLastGameWindow: true

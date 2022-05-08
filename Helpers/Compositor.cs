@@ -1055,6 +1055,7 @@ namespace MapAssist.Helpers
             }
         }
 
+<<<<<<< Updated upstream
         public void DrawPlayerInfo(Graphics gfx)
         {
             if (_gameData.MenuOpen.EscMenu) return;
@@ -1161,6 +1162,12 @@ namespace MapAssist.Helpers
                     }
                 }
             }
+=======
+		public void DrawCubeRecipes(Graphics gfx)
+        {
+            var sizeMulti = gfx.Height / 6.35f;
+            DrawBitmap(gfx, CreateResourceBitmap(gfx, "cubeRecipes"), new Point(sizeMulti * 0.87f, sizeMulti), 1.0f, gfx.Height / 1080.0f);
+>>>>>>> Stashed changes
         }
 
         // Drawing Utility Functions

@@ -72,6 +72,7 @@ namespace MapAssist
 
             chkOverlayMode.Checked = MapAssistConfiguration.Loaded.RenderingConfiguration.OverlayMode;
             chkMonsterHealthBar.Checked = MapAssistConfiguration.Loaded.RenderingConfiguration.MonsterHealthBar;
+			chkCubeRecipes.Checked = MapAssistConfiguration.Loaded.RenderingConfiguration.ShowCubeOverlay;
             chkToggleViaMap.Checked = MapAssistConfiguration.Loaded.RenderingConfiguration.ToggleViaInGameMap;
             chkToggleViaPanels.Checked = MapAssistConfiguration.Loaded.RenderingConfiguration.ToggleViaInGamePanels;
             chkStickToLastGameWindow.Checked = MapAssistConfiguration.Loaded.RenderingConfiguration.StickToLastGameWindow;
@@ -300,6 +301,11 @@ namespace MapAssist
             MapAssistConfiguration.Loaded.RenderingConfiguration.MonsterHealthBar = chkMonsterHealthBar.Checked;
         }
 
+		private void chkCubeRecipes_CheckedChanged(object sender, EventArgs e)
+        {
+            MapAssistConfiguration.Loaded.RenderingConfiguration.ShowCubeOverlay = chkCubeRecipes.Checked;
+        }
+
         private void cboPosition_SelectedIndexChanged(object sender, EventArgs e)
         {
             MapAssistConfiguration.Loaded.RenderingConfiguration.Position = (MapPosition)cboPosition.SelectedIndex;
@@ -389,8 +395,13 @@ namespace MapAssist
 
                 btnClearGameInfoFont.Visible = true;
                 fontDlg.Dispose();
+<<<<<<< Updated upstream:Forms/ConfigEditor.cs
             }
             else
+=======
+            } 
+			else
+>>>>>>> Stashed changes:ConfigEditor.cs
             {
                 fontDlg.Dispose();
             }

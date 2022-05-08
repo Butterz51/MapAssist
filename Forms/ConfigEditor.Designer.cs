@@ -178,7 +178,11 @@
             this.label3 = new System.Windows.Forms.Label();
             this.chkDPIAware = new System.Windows.Forms.CheckBox();
             this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
+<<<<<<< Updated upstream:Forms/ConfigEditor.Designer.cs
             this.txtAuthorizedWindowTitle = new System.Windows.Forms.TextBox();
+=======
+			this.chkCubeRecipes = new System.Windows.Forms.CheckBox();
+>>>>>>> Stashed changes:ConfigEditor.Designer.cs
             this.tabControl1.SuspendLayout();
             this.tabPage5.SuspendLayout();
             this.groupBox5.SuspendLayout();
@@ -286,7 +290,11 @@
             this.groupBox4.Size = new System.Drawing.Size(335, 69);
             this.groupBox4.TabIndex = 24;
             this.groupBox4.TabStop = false;
+<<<<<<< Updated upstream:Forms/ConfigEditor.Designer.cs
             this.groupBox4.Text = "D2 LOD 1.13c Path";
+=======
+            this.groupBox4.Text = "D2 LoD 1.13c Path";
+>>>>>>> Stashed changes:ConfigEditor.Designer.cs
             // 
             // txtD2Path
             // 
@@ -482,9 +490,10 @@
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Map";
             this.tabPage1.UseVisualStyleBackColor = true;
-            // 
+			//
             // groupBox1
             // 
+			this.groupBox1.Controls.Add(this.chkCubeRecipes);
             this.groupBox1.Controls.Add(this.chkMonsterHealthBar);
             this.groupBox1.Controls.Add(this.btnClearBorderColor);
             this.groupBox1.Controls.Add(this.btnClearWalkableColor);
@@ -510,8 +519,13 @@
             this.groupBox1.Controls.Add(this.chkToggleViaPanels);
             this.groupBox1.Location = new System.Drawing.Point(11, 9);
             this.groupBox1.Name = "groupBox1";
+<<<<<<< Updated upstream:Forms/ConfigEditor.Designer.cs
             this.groupBox1.Size = new System.Drawing.Size(335, 305);
             this.groupBox1.TabIndex = 21;
+=======
+            this.groupBox1.Size = new System.Drawing.Size(295, 335); // Default 300, 330
+            this.groupBox1.TabIndex = 23;
+>>>>>>> Stashed changes:ConfigEditor.Designer.cs
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Rendering";
             // 
@@ -526,12 +540,27 @@
             this.chkMonsterHealthBar.UseVisualStyleBackColor = true;
             this.chkMonsterHealthBar.CheckedChanged += new System.EventHandler(this.chkMonsterHealthBar_CheckedChanged);
             // 
+			// chkCubeRecipes
+			//
+			this.chkCubeRecipes.AutoSize = true;
+            this.chkCubeRecipes.Location = new System.Drawing.Point(10, 205);
+            this.chkCubeRecipes.Name = "chkCubeRecipes";
+            this.chkCubeRecipes.Size = new System.Drawing.Size(117, 17);
+            this.chkCubeRecipes.TabIndex = 26;
+            this.chkCubeRecipes.Text = "Show cube recipes";
+            this.chkCubeRecipes.UseVisualStyleBackColor = true;
+            this.chkCubeRecipes.CheckedChanged += new System.EventHandler(this.chkCubeRecipes_CheckedChanged);
+            // 
             // btnClearBorderColor
             // 
             this.btnClearBorderColor.FlatAppearance.BorderSize = 0;
             this.btnClearBorderColor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClearBorderColor.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F);
+<<<<<<< Updated upstream:Forms/ConfigEditor.Designer.cs
             this.btnClearBorderColor.Location = new System.Drawing.Point(232, 273);
+=======
+            this.btnClearBorderColor.Location = new System.Drawing.Point(232, 301);
+>>>>>>> Stashed changes:ConfigEditor.Designer.cs
             this.btnClearBorderColor.Name = "btnClearBorderColor";
             this.btnClearBorderColor.Size = new System.Drawing.Size(23, 23);
             this.btnClearBorderColor.TabIndex = 23;
@@ -544,7 +573,11 @@
             this.btnClearWalkableColor.FlatAppearance.BorderSize = 0;
             this.btnClearWalkableColor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClearWalkableColor.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F);
+<<<<<<< Updated upstream:Forms/ConfigEditor.Designer.cs
             this.btnClearWalkableColor.Location = new System.Drawing.Point(102, 273);
+=======
+            this.btnClearWalkableColor.Location = new System.Drawing.Point(102, 301);
+>>>>>>> Stashed changes:ConfigEditor.Designer.cs
             this.btnClearWalkableColor.Name = "btnClearWalkableColor";
             this.btnClearWalkableColor.Size = new System.Drawing.Size(23, 23);
             this.btnClearWalkableColor.TabIndex = 22;
@@ -555,7 +588,11 @@
             // chkStickToLastGameWindow
             // 
             this.chkStickToLastGameWindow.AutoSize = true;
+<<<<<<< Updated upstream:Forms/ConfigEditor.Designer.cs
             this.chkStickToLastGameWindow.Location = new System.Drawing.Point(10, 248);
+=======
+            this.chkStickToLastGameWindow.Location = new System.Drawing.Point(10, 274);
+>>>>>>> Stashed changes:ConfigEditor.Designer.cs
             this.chkStickToLastGameWindow.Name = "chkStickToLastGameWindow";
             this.chkStickToLastGameWindow.Size = new System.Drawing.Size(236, 17);
             this.chkStickToLastGameWindow.TabIndex = 25;
@@ -566,7 +603,11 @@
             // btnBorderColor
             // 
             this.btnBorderColor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+<<<<<<< Updated upstream:Forms/ConfigEditor.Designer.cs
             this.btnBorderColor.Location = new System.Drawing.Point(140, 273);
+=======
+            this.btnBorderColor.Location = new System.Drawing.Point(140, 301);
+>>>>>>> Stashed changes:ConfigEditor.Designer.cs
             this.btnBorderColor.Name = "btnBorderColor";
             this.btnBorderColor.Size = new System.Drawing.Size(91, 23);
             this.btnBorderColor.TabIndex = 23;
@@ -577,7 +618,11 @@
             // btnWalkableColor
             // 
             this.btnWalkableColor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+<<<<<<< Updated upstream:Forms/ConfigEditor.Designer.cs
             this.btnWalkableColor.Location = new System.Drawing.Point(10, 273);
+=======
+            this.btnWalkableColor.Location = new System.Drawing.Point(10, 301);
+>>>>>>> Stashed changes:ConfigEditor.Designer.cs
             this.btnWalkableColor.Name = "btnWalkableColor";
             this.btnWalkableColor.Size = new System.Drawing.Size(91, 23);
             this.btnWalkableColor.TabIndex = 22;
@@ -748,7 +793,11 @@
             // chkToggleViaMap
             // 
             this.chkToggleViaMap.AutoSize = true;
+<<<<<<< Updated upstream:Forms/ConfigEditor.Designer.cs
             this.chkToggleViaMap.Location = new System.Drawing.Point(10, 202);
+=======
+            this.chkToggleViaMap.Location = new System.Drawing.Point(10, 228);
+>>>>>>> Stashed changes:ConfigEditor.Designer.cs
             this.chkToggleViaMap.Name = "chkToggleViaMap";
             this.chkToggleViaMap.Size = new System.Drawing.Size(177, 17);
             this.chkToggleViaMap.TabIndex = 8;
@@ -769,7 +818,11 @@
             // chkToggleViaPanels
             // 
             this.chkToggleViaPanels.AutoSize = true;
+<<<<<<< Updated upstream:Forms/ConfigEditor.Designer.cs
             this.chkToggleViaPanels.Location = new System.Drawing.Point(10, 225);
+=======
+            this.chkToggleViaPanels.Location = new System.Drawing.Point(10, 251);
+>>>>>>> Stashed changes:ConfigEditor.Designer.cs
             this.chkToggleViaPanels.Name = "chkToggleViaPanels";
             this.chkToggleViaPanels.Size = new System.Drawing.Size(206, 17);
             this.chkToggleViaPanels.TabIndex = 9;
@@ -1864,6 +1917,7 @@
             this.lstHidden.Name = "lstHidden";
             this.lstHidden.Size = new System.Drawing.Size(293, 69);
             this.lstHidden.TabIndex = 0;
+<<<<<<< Updated upstream:Forms/ConfigEditor.Designer.cs
             // 
             // groupBoxAuthorizedWindowTitle
             // 
@@ -1947,6 +2001,9 @@
             this.txtAuthorizedWindowTitle.Size = new System.Drawing.Size(293, 20);
             this.txtAuthorizedWindowTitle.TabIndex = 3;
             // 
+=======
+			//
+>>>>>>> Stashed changes:ConfigEditor.Designer.cs
             // ConfigEditor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -2102,6 +2159,7 @@
         private System.Windows.Forms.Label lblItemLogPosition;
         private System.Windows.Forms.CheckBox chkItemLogVendorItems;
         private System.Windows.Forms.CheckBox chkItemLogItemsOnIdentify;
+		private System.Windows.Forms.CheckBox chkCubeRecipes;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.CheckBox chkMonsterHealthBar;
         private System.Windows.Forms.Button btnClearBorderColor;

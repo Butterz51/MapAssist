@@ -454,7 +454,12 @@
   <data name="Localization" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Localization.json;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+<<<<<<< Updated upstream
   <data name="InventoryExportTemplate" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\InventoryExportTemplate.html;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+=======
+  <data name="cubeRecipes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cubeRecipes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+>>>>>>> Stashed changes
   </data>
 </root>

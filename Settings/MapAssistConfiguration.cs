@@ -271,6 +271,9 @@ public class RenderingConfiguration
 
     [YamlMember(Alias = "LinesMode", ApplyNamingConventions = false)]
     public MapLinesMode LinesMode { get; set; }
+	
+	[YamlMember(Alias = "ShowCubeOverlay", ApplyNamingConventions = false)]
+    public bool ShowCubeOverlay { get; set; }
 }
 
 public class HotkeyConfiguration
