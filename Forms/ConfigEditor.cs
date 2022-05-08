@@ -395,13 +395,8 @@ namespace MapAssist
 
                 btnClearGameInfoFont.Visible = true;
                 fontDlg.Dispose();
-<<<<<<< Updated upstream:Forms/ConfigEditor.cs
-            }
-            else
-=======
             } 
 			else
->>>>>>> Stashed changes:ConfigEditor.cs
             {
                 fontDlg.Dispose();
             }
